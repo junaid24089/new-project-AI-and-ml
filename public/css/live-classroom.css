@@ -1,0 +1,20 @@
+/* Live Classroom page styles */
+/* ===== Live classroom ===== */
+.live-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px;gap:16px;}
+.live-title{font-family:var(--font-serif);font-size:26px;font-weight:600;margin:4px 0;}
+.cam-frame{background:#0d1c16;border-radius:8px;padding:16px;color:#d8e6de;}
+.cam-top{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;color:#9fb6ac;margin-bottom:60px;}
+.cam-badge{border:1px solid #3a5346;padding:2px 8px;border-radius:4px;}
+.cam-body{text-align:center;padding:20px 0 60px;}
+.cam-icon{width:40px;height:40px;margin:0 auto 14px;display:block;color:#5a7669;}
+.cam-icon svg{fill:none;stroke:currentColor;stroke-width:1.2;width:100%;height:100%;}
+.cam-title{font-weight:600;font-size:15px;color:#fff;}
+.cam-sub{font-size:12.5px;color:#8fa89c;margin-top:4px;}
+.cam-chips{display:flex;gap:8px;flex-wrap:wrap;}
+.chip{font-family:var(--font-mono);font-size:10px;border:1px solid #3a5346;color:#a9c1b6;padding:5px 9px;border-radius:4px;}
+.room-list{display:flex;flex-direction:column;gap:2px;}
+.room-row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--border-soft);}
+.room-row:last-child{border-bottom:none;}
+
+.cam-frame{position:relative;}
+@media (max-width: 640px){ .cam-chips{flex-wrap:wrap;} }
