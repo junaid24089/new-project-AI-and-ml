@@ -1,0 +1,2 @@
+/* Analytics page styles */
+@media (max-width: 640px){ .line-chart{height:200px;} .hbar-label{max-width:120px;} }
